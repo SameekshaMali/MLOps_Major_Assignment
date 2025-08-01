@@ -27,3 +27,6 @@ jobs:
       - name: Run Pytest
         run: |
           pytest -s tests/test_train.py
+        env:
+          PYTHONPATH: .
+
