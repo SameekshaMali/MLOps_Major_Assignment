@@ -17,3 +17,10 @@ Sample Output:
 R2 Score: 0.5758
 Mean Squared Error: 0.5559
 Model saved to: models\model.joblib
+
+# Quantization Comaparision Table
+| Metric               | Before Quantization | After Simulated Quantization |
+|----------------------|---------------------|------------------------------|
+| R² Score             | 0.5758              | 0.4795                       |
+| Mean Squared Error   | 0.5559              | 0.6931                       |
+|----------------------|---------------------|------------------------------|
